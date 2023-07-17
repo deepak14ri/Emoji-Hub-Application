@@ -1,0 +1,89 @@
+body {
+  background-color: #f5f7fa;
+  color: #34495e;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#emojiList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.emojiCard {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.emojiCard:hover {
+  transform: scale(1.05);
+}
+
+.categoryFilter {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#pagination .paginationButton {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #34495e;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#pagination .paginationButton.active {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+#previousButton, #nextButton {
+  background-color: #2980b9;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#previousButton:hover, #nextButton:hover {
+  background-color: #1c688e;
+}
+
+@media screen and (max-width: 480px) {
+  .emojiCard {
+    width: 100%;
+  }
+}
+.slide_pre_nex {
+    width: 20%;
+    margin: 0 40% 0 40%;
+    justify-content: first baseline;
+}

@@ -1,0 +1,23 @@
+Emoji Hub Application Instructions
+The Emoji Hub application allows users to conveniently list and browse emojis. It fetches emoji details from the provided API and provides filtering by category and pagination features. Below are the instructions for using the application:
+
+Open the Emoji Hub application in a web browser.
+
+The page will display a list of emojis along with their details, grouped by categories. Initially, all emojis will be displayed.
+
+To filter emojis by category:
+
+Use the "Filter by Category" dropdown menu located above the emoji list.
+Select a specific category from the dropdown to display emojis belonging to that category.
+Select the "All" option to show emojis from all categories.
+The emoji list will be updated according to the selected category.
+
+If the number of emojis exceeds the number displayed on a single page, pagination controls will be shown at the bottom.
+
+The pagination controls include page numbers and "previous" and "next" buttons.
+Click on a page number to navigate to that specific page.
+Use the "previous" and "next" buttons to navigate to the previous or next page, respectively.
+The page will update the emoji list and pagination controls based on the selected category and the current page.
+
+Enjoy browsing and exploring emojis with Emoji Hub!
+
